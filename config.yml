@@ -1,0 +1,31 @@
+baseURL: 'http://lophi.dev/'
+languageCode: 'en-ie'
+title: 'LoPhi Developer'
+theme: PaperMod
+
+enableRobotsTXT: true
+
+minify:
+  minifyOutput: true
+
+params:
+  env: production
+  title: 'LoPhi Developer'
+  keywords: [Blog, Developer, Programming]
+  author: Jared Mullin
+  
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+
+  label:
+    text: "LoPhi"
+
+  profileMode:
+    enabled: false # needs to be explicitly set
+
+  editPost:
+      URL: "https://github.com/Jared-Mullin/Jared-Mullin.github.io/content"
+      Text: "Suggest Changes" # edit text
+      appendFilePath: true # to append file path to Edit link
