@@ -9,8 +9,16 @@ minify:
   minifyOutput: true
 
 params:
+  homeInfoParams:
+      Title: "Jared Mullin"
+      Content: "4th Year Computer Science and Information Technology Student at the National University of Ireland, Galway"
+  socialIcons:
+      - name: "github"
+        url: "https://github.com/Jared-Mullin"
+      - name: linkedin
+        url: "https://linkedin.com/in/Jared-Mullin"
+
   env: production
-  title: 'LoPhi Developer'
   keywords: [Blog, Developer, Programming]
   author: Jared Mullin
   
@@ -21,9 +29,6 @@ params:
 
   label:
     text: "LoPhi"
-
-  profileMode:
-    enabled: false # needs to be explicitly set
 
   editPost:
       URL: "https://github.com/Jared-Mullin/Jared-Mullin.github.io/content"
