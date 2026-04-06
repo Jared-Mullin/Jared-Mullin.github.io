@@ -5,13 +5,13 @@ title = 'Homelab - Overview'
 +++
 
 # Applications Overview
-* **Glance** - Simple monitoring and new tab alternative.
-* **PiHole** - Network-wide ad blocking
-* **Plex** - Media hosting
-* **Sonarr/Radarr/Prowlarr/Overseerr** - Media fetching and management
-* **Deluge/SABnzbd** - Clients for downloading torrent and Usenet
-* **Gluetun** - VPN client
-* **Excalidraw** - Diagrams and whiteboarding
+* **[Glance](https://github.com/glanceapp/glance)** - Simple monitoring and new tab alternative.
+* **[PiHole](https://github.com/pi-hole/pi-hole)** - Network-wide ad blocking
+* **[Plex](https://www.plex.tv/)** - Media hosting
+* **[Sonarr](https://github.com/Sonarr/Sonarr)/[Radarr](https://github.com/Radarr/Radarr)/[Prowlarr](https://github.com/Prowlarr/Prowlarr)/[Overseerr](https://github.com/sct/overseerr)** - Media fetching and management
+* **[Deluge](https://github.com/deluge-torrent/deluge)/[SABnzbd](https://github.com/sabnzbd/sabnzbd)** - Clients for downloading torrent and Usenet
+* **[Gluetun](https://github.com/qdm12/gluetun)** - VPN client
+* **[Excalidraw](https://github.com/excalidraw/excalidraw)** - Diagrams and whiteboarding
 
 ![Glance Monitoring Dashboard](Glance-Overview.png "Monitoring Dashboard")
 
