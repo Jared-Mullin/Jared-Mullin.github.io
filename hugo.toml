@@ -1,0 +1,60 @@
+baseURL = 'http://lophi.dev/'
+languageCode = 'en-us'
+title = 'lophi.dev'
+theme = 'hugo-coder'
+
+[markup.highlight]
+style = "github-dark"
+
+[params]
+  author = "Jared Mullin"
+  info = "Site Reliability Engineer / Software Engineer"
+  description = "Jared Mullin's personal website"
+  keywords = "blog,developer,personal"
+  avatarurl = "images/avatar.png"
+
+  faviconSVG = "/favicon.svg"
+  favicon_32 = "/favicon-32x32.png"
+  favicon_16 = "/favicon-16x16.png"
+
+  since = 2026
+
+  enableTwemoji = true
+
+  colorScheme = "auto"
+  hidecolorschemetoggle = false
+
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
+  author = "authors"
+
+[[params.social]]
+  name = "Github"
+  icon = "fa-brands fa-github fa-2x"
+  weight = 1
+  url = "https://github.com/Jared-Mullin/"
+
+[[params.social]]
+  name = "LinkedIn"
+  icon = "fa-brands fa-linkedin fa-2x"
+  weight = 1
+  url = "https://linkedin.com/in/jared-mullin/"
+
+[[params.social]]
+  name = "Instagram"
+  icon = "fa-brands fa-instagram fa-2x"
+  weight = 1
+  url = "https://instagram.com/lophixyz"
+
+[[params.social]]
+  name = "Food"
+  icon = "fa fa-cutlery fa-2x"
+  weight = 1
+  url = "https://instagram.com/lophi.cooking"
+
+[[menu.main]]
+  name = "Blog"
+  weight = 1
+  url  = "posts/"
