@@ -2,6 +2,7 @@ baseURL = 'http://lophi.dev/'
 languageCode = 'en-us'
 title = 'lophi.dev'
 theme = 'hugo-coder'
+contentDir = 'content'
 
 [markup.highlight]
 style = "github-dark"
